@@ -1,4 +1,3 @@
-# rock-paper-scissors
 Project to demonstrate basic knowledge of HTML, CSS and Javascript concepts like: 
 <ul>
 <li>Introduction to HTML and CSS</li>

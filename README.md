@@ -1,36 +1,44 @@
-Project to demonstrate basic knowledge of HTML, CSS and Javascript concepts like: 
-<ul>
-<li>Introduction to HTML and CSS</li>
-<li>Elements and Tags</li>
-<li>HTML Boilerplate</li>
-<li>Working with Text</li>
-<li>Lists</li>
-<li>Links and Images</li>
-<li>The Cascade</li>
-<li>Inspecting HTML and CSS</li>
-<li>The Box Model</li>
-<li>Block and Inline</li>
-<li>Introduction to Flexbox</li>
-<li>Growing and Shrinking</li>
-<li>Axes</li>
-<li>Alignment</li>
-<li>Variables</li>
-<li>Numbers</li>
-<li>Strings</li>
-<li>Conditionals</li>
-<li>Functions</li>
-<li>Loops</li>
-</ul>
+# Rock, Paper, Scissors Game
 
-Project URL: <a href="https://faozio.github.io/rock-paper-scissors/">Rock, Paper, Scissors</a>
+This repository contains a simple implementation of the classic game "Rock, Paper, Scissors" using JavaScript. The game allows you to play against the computer for five rounds and keeps track of the scores.
 
-Usage:
-<ul>
-<li>Depending on when you are viewing this project, the initial project can only be tested using the console. Much later, an interface would be added.</li>
-<li>The game is played with three possible inputs that represent a rOcK, PaPer, and SciSSorS. (Note: Case sensitivity is not considered)</li> 
-<li>Rock wins against scissors; paper wins against rock; and scissors wins against paper.</li>
-<li>For each player input, the computer also randomly outputs it's own selection</li>
-<li>The winner is noted for each round with the player/computer score updated</li>
-<li>If both user and computer select the the same outcome, it is considered a tie, and play resumes until it completes a five round stage.</li>
-<li>Afterwards game ends with either "Player wins!", "Computer wins!" or "It's a tie!"</li>
-</ul>
+## How to Play
+
+1. Clone the repository to your local machine or download the code as a ZIP file.
+
+2. Open the `index.html` file in a web browser to start the game.
+
+3. The game will prompt you to enter your choice for each round. Enter either 'rock,' 'paper,' or 'scissors' (case-insensitive) and press Enter.
+
+4. After each round, the game will display your choice, the computer's choice, and the result of the round.
+
+5. Once all five rounds are completed, the final result will be displayed, indicating whether the player or the computer won the game, or if it's a tie.
+
+## Code Explanation
+
+The code consists of the following main components:
+
+- The `getUserChoice` function prompts the user to enter their choice and validates the input.
+
+- The `getComputerChoice` function generates a random choice for the computer.
+
+- The `playRound` function determines the result of a single round based on the player and computer choices.
+
+- The `game` function orchestrates the gameplay by running five rounds, updating the scores, and displaying the results.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to explore, modify, and use the code according to the terms of the license.
+
+## Contributions
+
+Contributions to the project are welcome. If you have any improvements, bug fixes, or new features to suggest, please submit a pull request.
+
+## Feedback
+
+If you have any feedback, questions, or suggestions regarding the game or the code, feel free to open an issue in the repository. Your feedback is valuable and helps improve the project.
+
+Enjoy the game!
+

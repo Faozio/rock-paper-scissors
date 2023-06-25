@@ -23,4 +23,4 @@ Project to demonstrate basic knowledge of HTML, CSS and Javascript concepts like
 <li>Loops</li>
 </ul>
 
-Project URL: <a href="https://faozio.github.io/rock-paper-scissors/">Odin Recipes</a>
+Project URL: <a href="https://faozio.github.io/rock-paper-scissors/">Rock, Paper, Scissors</a>
